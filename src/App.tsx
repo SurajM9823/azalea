@@ -27,7 +27,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <GlobalLoader />
-      <BrowserRouter>
+      <BrowserRouter basename="/azalea">
         <NoticeModal />
         <Routes>
           <Route path="/" element={<Home />} />
