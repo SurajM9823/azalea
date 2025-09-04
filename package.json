@@ -11,7 +11,7 @@
   "lint": "eslint .",
   "preview": "vite preview",
   "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --branch gh-pages --message 'Deploy to gh-pages' --force"
+  "deploy": "gh-pages -d dist --branch gh-pages --message 'Deploy to gh-pages'"
 },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
